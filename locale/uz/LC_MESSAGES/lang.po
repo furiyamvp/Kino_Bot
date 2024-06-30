@@ -1,0 +1,541 @@
+# Uzbek translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-06-30 19:41+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uz\n"
+"Language-Team: uz <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: handlers/users/change_language.py:16
+msgid "select any language to change the language"
+msgstr ""
+
+#: handlers/users/change_language.py:21 handlers/users/start.py:24
+#: handlers/users/start.py:33 handlers/users/users_panel/call_center.py:18
+#: handlers/users/users_panel/user_back.py:21
+#: handlers/users/users_panel/user_back.py:30
+#: handlers/users/users_panel/user_premium_order_move.py:33
+#: handlers/users/users_panel/user_search_film.py:41
+#: handlers/users/users_panel/user_search_film.py:72
+#: handlers/users/users_panel/user_search_film.py:103
+#: handlers/users/users_panel/user_search_film.py:134
+msgid ""
+"You have not subscribed to the channels!\n"
+"After subscribing, press /start to activate the bot."
+msgstr ""
+"Siz kanallarga obuna bo'lmagansiz!\n"
+"Obuna bo'lgandan so'ng, botni faollashtirish uchun /start tugmasini "
+"bosing."
+
+#: handlers/users/change_language.py:30 handlers/users/change_language.py:45
+#: handlers/users/change_language.py:60
+msgid "You are currently using this language"
+msgstr "Siz hozir ushbu tildan foydalanyapsiz"
+
+#: handlers/users/change_language.py:36 handlers/users/change_language.py:51
+#: handlers/users/change_language.py:66
+msgid ""
+"The language has changed\n"
+"click /start for the bot"
+msgstr ""
+"Til oʻzgardi\n"
+"bot uchun / start tugmasini bosing"
+
+#: handlers/users/start.py:20 handlers/users/start.py:29
+#: handlers/users/users_panel/user_back.py:17
+#: handlers/users/users_panel/user_back.py:26
+msgid "Welcome to the Telegram Bot"
+msgstr "Telegram botiga xush kelibsiz"
+
+#: handlers/users/admins_panel/start.py:31 handlers/users/start.py:46
+msgid ""
+"This bot is the bot of the Zangora Ekran channel. In this bot, if you "
+"send us the link of the movie you saw on Instagram, we will send you that"
+" movie\n"
+"For the bot to start, click /start"
+msgstr ""
+"Bu bot Zangora Ekran kanalining boti. Bu botda agar siz Instagramda "
+"ko'rgan filmingizning havolasini bizga yuboring, biz sizga yuboramizfilm"
+"\n"
+"Botni ishga tushirish uchun /start\" tugmasini bosing"
+
+#: handlers/users/admins_panel/start.py:37 handlers/users/start.py:53
+msgid "There is an error in the bot, please contact us"
+msgstr "Botda xatolik bor, iltimos biz bilan bog'laning"
+
+#: handlers/users/admins_panel/add_kino.py:18
+#: handlers/users/admins_panel/change_film.py:17
+msgid "Please upload the movie to the bot"
+msgstr "Iltimos, filmni botga yuklang"
+
+#: handlers/users/admins_panel/add_kino.py:27
+#, fuzzy
+msgid ""
+"Please enter a movie title.\n"
+"Example: Harry Potter"
+msgstr ""
+"Film turini kiriting\n"
+"Misol: Jang"
+
+#: handlers/users/admins_panel/add_kino.py:35
+#: handlers/users/admins_panel/change_film.py:40
+msgid "You can only upload videos, you cannot upload anything in text format."
+msgstr ""
+"Siz faqat videolarni yuklashingiz mumkin, matn formatida hech narsa "
+"yuklay olmaysiz."
+
+#: handlers/users/admins_panel/add_kino.py:43
+msgid ""
+"Please enter the country in which the movie was released\n"
+"Example: USA"
+msgstr ""
+"Iltimos, film qaysi mamlakatda chiqarilganligini kiriting\n"
+"Misol: AQSh"
+
+#: handlers/users/admins_panel/add_kino.py:53
+msgid ""
+"Please enter year the movie was released\n"
+"Example: 2024"
+msgstr ""
+"Film chiqqan yilni kiriting\n"
+"Misol: 2024"
+
+#: handlers/users/admins_panel/add_kino.py:58
+#: handlers/users/admins_panel/change_film.py:94
+#: handlers/users/admins_panel/change_film.py:123
+msgid "Please do not use numbers"
+msgstr "Iltimos, raqamlardan foydalanmang"
+
+#: handlers/users/admins_panel/add_kino.py:67
+msgid ""
+"Please enter the movie type\n"
+"Example: Fight"
+msgstr ""
+"Film turini kiriting\n"
+"Misol: Jang"
+
+#: handlers/users/admins_panel/add_kino.py:72
+msgid "Please do not use letter"
+msgstr "Iltimos, harf ishlatmang"
+
+#: handlers/users/admins_panel/add_kino.py:80
+msgid ""
+"Please enter film's link on instagram \n"
+"Example: https://www.instagram.com/******"
+msgstr ""
+"Iltimos, filmning instagramdagi havolasini kiriting \n"
+"Misol: https://www.instagram.com/******"
+
+#: handlers/users/admins_panel/add_kino.py:90
+msgid ""
+"Please enter film's link on tiktok\n"
+"Example: https://vt.tiktok.com/******"
+msgstr ""
+"Iltimos, tiktokda film havolasini kiriting\n"
+"Misol: https://vt.tiktok.com/******"
+
+#: handlers/users/admins_panel/add_kino.py:95
+msgid "you can only enter an instagram link"
+msgstr "siz faqat instagram havolasini kiritishingiz mumkin"
+
+#: handlers/users/admins_panel/add_kino.py:104
+msgid ""
+"Please enter film's link on tiktok\n"
+"Example: https://www.youtube.com/******"
+msgstr ""
+"Iltimos, tiktokda film havolasini kiriting\n"
+"Masalan: https://www.youtube.com/******"
+
+#: handlers/users/admins_panel/add_kino.py:109
+#: handlers/users/admins_panel/add_kino.py:123
+msgid "you can only enter an tiktok link"
+msgstr "siz faqat tiktok havolasini kiritishingiz mumkin"
+
+#: handlers/users/admins_panel/add_kino.py:118
+msgid ""
+"Please enter movie status\n"
+"Example: Free or Premium"
+msgstr ""
+"Iltimos, film holatini kiriting\n"
+"Misol: Bepul yoki Premium"
+
+#: handlers/users/admins_panel/add_kino.py:149
+msgid "Movie added. ✅"
+msgstr "Film qo'shildi. ✅"
+
+#: handlers/users/admins_panel/add_kino.py:151
+msgid ""
+"🆔Film's code: {code}\n"
+"🎬Name: {name}\n"
+"➖➖➖➖➖➖➖➖➖➖\n"
+"📀Quality: {quality}\n"
+"🌍State: {state}\n"
+"📅Date: {date}-year\n"
+"🎞️Type: {type}\n"
+"💜Instagram: {instagram}\n"
+"🖤Tiktok: {tiktok}\n"
+"❤️You Tube: {you_tube}"
+msgstr ""
+"🆔Film kodi: {code}\n"
+"🎬Ism: {name}\n"
+"➖➖➖➖➖➖➖➖➖➖\n"
+"📀Sifat: {quality}\n"
+"🌍Davlati: {state}\n"
+"📅Sana: {date}-yil\n"
+"🎞️Turi: {type}\n"
+"💜Instagram: {instagram}\n"
+"🖤Tiktok: {tiktok}\n"
+"❤️You Tube: {you_tube}"
+
+#: handlers/users/admins_panel/add_kino.py:163
+msgid "There is an error in adding a movie. ❌"
+msgstr "Film qo‘shishda xatolik yuz berdi. ❌"
+
+#: handlers/users/admins_panel/admin_back.py:11
+msgid "Welcome to the main menu"
+msgstr "Asosiy menyuga xush kelibsiz"
+
+#: handlers/users/admins_panel/admin_change_user_status.py:18
+msgid "Please enter user chat id"
+msgstr "Iltimos, foydalanuvchi chat id sini kiriting"
+
+#: handlers/users/admins_panel/admin_change_user_status.py:27
+msgid ""
+"Id: {id}\n"
+"Chat id: {chat_id}\n"
+"Status: {status}"
+msgstr ""
+"Id: {id}\n"
+"Chat id: {chat_id}\n"
+"Holat: {status}"
+
+#: handlers/users/admins_panel/admin_change_user_status.py:43
+#: handlers/users/admins_panel/admin_change_user_status.py:55
+msgid "User's status has changed"
+msgstr "Foydalanuvchining holati o'zgardi"
+
+#: handlers/users/admins_panel/admin_search_film.py:19
+#: handlers/users/admins_panel/admin_search_film.py:42
+#: handlers/users/admins_panel/admin_search_film.py:65
+#: handlers/users/admins_panel/admin_search_film.py:88
+#: handlers/users/users_panel/user_search_film.py:28
+#: handlers/users/users_panel/user_search_film.py:59
+#: handlers/users/users_panel/user_search_film.py:90
+#: handlers/users/users_panel/user_search_film.py:121
+msgid ""
+"🎬Name: {name}\n"
+"➖➖➖➖➖➖➖➖➖➖\n"
+"📀quality: {quality}\n"
+"🌍state: {state}\n"
+"📅Date: {date}-year\n"
+"🎞️type: {type}\n"
+"💜Instagram: {instagram}\n"
+"🖤Tiktok: {tiktok}\n"
+"❤️You Tube: {you_tube}\n"
+"🧩Our Chanel: @Zangoriekran_kanali"
+msgstr ""
+"🆔Film kodi: {code}\n"
+"🎬Ism: {name}\n"
+"➖➖➖➖➖➖➖➖➖➖\n"
+"📀Sifat: {quality}\n"
+"🌍Davlati: {state}\n"
+"📅Sana: {date}-yil\n"
+"🎞️Turi: {type}\n"
+"💜Instagram: {instagram}\n"
+"🖤Tiktok: {tiktok}\n"
+"❤️You Tube: {you_tube}\n"
+"🧩Bizni kanalimiz: @Zangoriekran_kanali"
+
+#: handlers/users/admins_panel/admin_search_film.py:29
+#: handlers/users/admins_panel/admin_search_film.py:52
+msgid "There is no movie with that link❗️"
+msgstr "Bu havola bilan film yo'q❗️"
+
+#: handlers/users/admins_panel/admin_search_film.py:75
+#: handlers/users/admins_panel/admin_search_film.py:98
+#: handlers/users/users_panel/user_search_film.py:68
+#: handlers/users/users_panel/user_search_film.py:99
+#: handlers/users/users_panel/user_search_film.py:130
+msgid "There is no movie with that link ❗️"
+msgstr "Bu havola bilan film yo'q❗️"
+
+#: handlers/users/admins_panel/change_film.py:29
+msgid "Film changed 🔄"
+msgstr "Film o'zgartirildi 🔄"
+
+#: handlers/users/admins_panel/change_film.py:33
+msgid "An error occurred while changing the movie 🔄❌"
+msgstr "Filmni o'zgartirishda xatolik yuz berdi 🔄❌"
+
+#: handlers/users/admins_panel/change_film.py:49
+msgid "Please enter a new film name"
+msgstr "Iltimos, yangi film nomini kiriting"
+
+#: handlers/users/admins_panel/change_film.py:61
+msgid "Film's name changed 🔄"
+msgstr "Film nomi o'zgartirildi 🔄"
+
+#: handlers/users/admins_panel/change_film.py:65
+msgid "An error occurred while renaming the movie 🔄❌"
+msgstr "Film nomini oʻzgartirishda xatolik yuz berdi 🔄❌"
+
+#: handlers/users/admins_panel/change_film.py:74
+msgid "Please enter a new film state"
+msgstr "Iltimos, yangi film holatini kiriting"
+
+#: handlers/users/admins_panel/change_film.py:86
+msgid "Film's state changed 🔄"
+msgstr "Filmning holati o'zgardi 🔄"
+
+#: handlers/users/admins_panel/change_film.py:90
+msgid "Error: Film's didn't state change 🔄❌"
+msgstr "Xato: filmda oʻzgarish koʻrsatilmagan 🔄❌"
+
+#: handlers/users/admins_panel/change_film.py:103
+msgid "Please enter a new film date"
+msgstr "Iltimos, yangi film sanasini kiriting"
+
+#: handlers/users/admins_panel/change_film.py:115
+msgid "Film's date changed 🔄"
+msgstr "Filmning sanasi o'zgardi 🔄"
+
+#: handlers/users/admins_panel/change_film.py:119
+msgid "Error: Film's didn't date change 🔄❌"
+msgstr "Xato: filmning sanasi oʻzgarmagan 🔄❌"
+
+#: handlers/users/admins_panel/change_film.py:132
+msgid "Please enter a new film type"
+msgstr "Iltimos, yangi film turini kiriting"
+
+#: handlers/users/admins_panel/change_film.py:143
+msgid "Film's type changed 🔄"
+msgstr "Film turi o'zgardi 🔄"
+
+#: handlers/users/admins_panel/change_film.py:147
+msgid "Error: Film's didn't type change 🔄❌"
+msgstr "Xato: filmda matn turi oʻzgarmadi 🔄❌"
+
+#: handlers/users/admins_panel/change_film.py:156
+msgid "Please enter a new film instagram link"
+msgstr "Iltimos, yangi film instagram havolasini kiriting"
+
+#: handlers/users/admins_panel/change_film.py:168
+msgid "Film's instagram link changed 🔄"
+msgstr "Filmning instagramdagi havolasi o'zgartirildi 🔄"
+
+#: handlers/users/admins_panel/change_film.py:172
+msgid "Error: Film's didn't instagram link change 🔄❌"
+msgstr "Xato: Filmda instagram havolasi oʻzgarmadi 🔄❌"
+
+#: handlers/users/admins_panel/change_film.py:176
+msgid "You can only enter an instagram link"
+msgstr "Siz faqat instagram havolasini kiritishingiz mumkin"
+
+#: handlers/users/admins_panel/change_film.py:185
+msgid "Please enter a new film tiktok link"
+msgstr "Iltimos, yangi film tiktok havolasini kiriting"
+
+#: handlers/users/admins_panel/change_film.py:197
+msgid "Film's tiktok link changed 🔄"
+msgstr "Filmning tiktok havolasi o'zgartirildi 🔄"
+
+#: handlers/users/admins_panel/change_film.py:201
+msgid "Error: Film's didn't tiktok link change 🔄❌"
+msgstr "Xato: Filmda tiktok havolasi oʻzgarmadi 🔄❌"
+
+#: handlers/users/admins_panel/change_film.py:205
+msgid "You can only enter an tiktok link"
+msgstr "Siz faqat tiktok havolasini kiritishingiz mumkin"
+
+#: handlers/users/admins_panel/change_film.py:214
+msgid "Please enter a new film you tube link"
+msgstr "Iltimos, yangi film you tube havolasini kiriting"
+
+#: handlers/users/admins_panel/change_film.py:226
+msgid "Film's you tube link changed 🔄"
+msgstr "Filmning you tube havolasi o'zgartirildi 🔄"
+
+#: handlers/users/admins_panel/change_film.py:230
+msgid "Error: Film's didn't you tube link change 🔄❌"
+msgstr "Xato: Filmning havolasi oʻzgardi 🔄❌"
+
+#: handlers/users/admins_panel/change_film.py:234
+msgid "You can only enter an you tube link"
+msgstr "Siz faqat you tube havolasini kiritishingiz mumkin"
+
+#: handlers/users/admins_panel/change_film.py:243
+msgid "The film has been deleted 🔄"
+msgstr "Film o'chirildi 🔄"
+
+#: handlers/users/admins_panel/change_film.py:247
+msgid "There is an error while deleting the movie 🗑❌"
+msgstr "Filmni oʻchirishda xatolik yuz berdi 🗑❌"
+
+#: handlers/users/admins_panel/setting.py:10
+msgid "Welcome to the settings menu"
+msgstr "Sozlamalar menyusiga xush kelibsiz"
+
+#: handlers/users/admins_panel/start.py:18
+msgid "Hello Admin🫡"
+msgstr "Salom Admin🫡"
+
+#: handlers/users/admins_panel/statistics.py:11
+msgid "Welcome to the statistics menu"
+msgstr "Statistika menyusiga xush kelibsiz"
+
+#: handlers/users/users_panel/user_premium_order_move.py:23
+msgid ""
+"Requirements: The movie you are looking for must be available, do not use"
+" offensive language, and your message must not exceed 100 characters.\n"
+"Reminder. If you say something bad, we will remove your bonus."
+msgstr ""
+"Talablar: Siz izlayotgan film mavjud bo'lishi kerak, foydalanmang "
+"haqoratomuz til va xabaringiz 100 belgidan oshmasligi kerak.\n"
+"Eslatma. Agar yomon gapirsangiz, bonusingizni olib tashlaymiz."
+
+#: handlers/users/users_panel/user_premium_order_move.py:46
+msgid ""
+"Your message has exceeded 100 characters, you used {len} characters in "
+"your message"
+msgstr ""
+"Xatingiz 100 ta belgidan oshdi, siz \"{len} ta belgidan "
+"foydalandingizxabaringiz"
+
+#: handlers/users/users_panel/user_search_film.py:37
+msgid "There is no movie with that code ❗️"
+msgstr "Bunday kodli film yo'q ❗️"
+
+#: keyboards/default/admin.py:9
+msgid "Statistics 📊"
+msgstr "Statistika 📊"
+
+#: keyboards/default/admin.py:10
+msgid "Settings ⚙️"
+msgstr "Sozlamalar ⚙️"
+
+#: keyboards/default/admin.py:13
+msgid "Giving premium 💎"
+msgstr "Premium berish 💎"
+
+#: keyboards/default/admin.py:16
+msgid "Add Film ➕"
+msgstr "Film qo'shish ➕"
+
+#: keyboards/default/admin.py:27
+msgid "Quantity users 👥"
+msgstr "Foydalanuvchilar soni 👥"
+
+#: keyboards/default/admin.py:28
+msgid "Quantity films 🎥"
+msgstr "Filmlar soni 🎥"
+
+#: keyboards/default/admin.py:31 keyboards/default/back.py:9
+#: keyboards/inline/change_user_status.py:11
+msgid "Back ⬅️"
+msgstr "Orqaga ⬅️"
+
+#: keyboards/default/setting.py:9 keyboards/default/user.py:9
+#: keyboards/default/user_premium.py:9
+msgid "Change language 🇺🇿🇷🇺🇺🇸"
+msgstr "Tilni o'zgartirish 🇺🇿🇷🇺🇺🇸"
+
+#: keyboards/default/user.py:10 keyboards/default/user_premium.py:13
+msgid "Call center 📞"
+msgstr "Call center 📞"
+
+#: keyboards/default/user_premium.py:10
+msgid "Order a movie 🛍🎥"
+msgstr "Filmga buyurtma bering 🛍🎥"
+
+#: keyboards/inline/add_film.py:6
+msgid "Free 🆓"
+msgstr "Bepul 🆓"
+
+#: keyboards/inline/add_film.py:7
+msgid "Premium 💎"
+msgstr "Premium 💎"
+
+#: keyboards/inline/change_film.py:20
+msgid "Film 🎥"
+msgstr "Film 🎥"
+
+#: keyboards/inline/change_film.py:23
+msgid "Name 🎬"
+msgstr "Ism 🎬"
+
+#: keyboards/inline/change_film.py:28
+msgid "State 🌏"
+msgstr "Davlat 🌏"
+
+#: keyboards/inline/change_film.py:31
+msgid "Date 📅"
+msgstr "Sana 📅"
+
+#: keyboards/inline/change_film.py:50
+msgid "Type 🎞️"
+msgstr "Yozing 🎞️"
+
+#: keyboards/inline/change_film.py:56
+msgid "Delete 🗑"
+msgstr "O'chirish 🗑"
+
+#: keyboards/inline/change_user_status.py:7
+msgid "Change free 🆓"
+msgstr "Bepul almashtiring 🆓"
+
+#: keyboards/inline/change_user_status.py:8
+msgid "Change premium 💎"
+msgstr ""
+
+#: keyboards/inline/channels.py:7
+msgid "✅ SUBSCRIBE"
+msgstr "✅ OBUNA BO'LING"
+
+#~ msgid ""
+#~ "You can find movies through this "
+#~ "bot in 2 ways. 1. You can "
+#~ "find films by entering the number "
+#~ "you watched in out videos on "
+#~ "Instagram or Tiktok and other places."
+#~ " 2. If you post the link to "
+#~ "that video, we will send you the"
+#~ " video. If you add the name or"
+#~ " picture of the movie in the "
+#~ "bot, we will try to find the "
+#~ "movie and place it in the bot."
+#~ "\n"
+#~ "Click start again to /start the bot"
+#~ msgstr ""
+#~ "Bu orqali filmlarni topishingiz mumkinbotni"
+#~ " ikki xil usulda. 1. mumkinraqamni "
+#~ "kiritish orqali filmlarni topingsiz videolarni"
+#~ " tashqaridan tomosha qilgansizInstagram yoki "
+#~ "Tiktok va boshqa joylar. 2. Agar "
+#~ "havolani joylashtirsangiz o'sha video, biz "
+#~ "sizga yuboramizvideo. Agar siz nom "
+#~ "qo'shsangiz yokifilmning suratibot, biz "
+#~ "topishga harakat qilamizfilm va uni "
+#~ "botga joylashtiring.\n"
+#~ "Botni ishga tushirish / ishga tushirish"
+#~ " uchun qaytadan boshlash tugmasini bosing"
+
+#~ msgid ""
+#~ "Film nomini kiriting.\n"
+#~ "Misol: Garri Potter"
+#~ msgstr ""
+#~ "Film nomini kiriting.\n"
+#~ "Misol: Garri Potter"
+
