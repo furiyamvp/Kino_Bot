@@ -24,5 +24,5 @@ async def quantity_user_menu_handler(message: types.Message):
 async def quantity_film_menu_handler(message: types.Message):
     quantity_film = await quantity_films()
     quantity_film_number = quantity_film["count_1"]
-    text = f"Bot has {quantity_film_number} films"
+    text = f"Bot has {quantity_film_number}  films"
     await message.answer(text=text, reply_markup=await statistics_menu_def())
