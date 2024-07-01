@@ -1,0 +1,574 @@
+# English translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-07-01 14:24+0500\n"
+"PO-Revision-Date: 2024-04-14 14:04+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: handlers/users/change_language.py:16
+msgid "select any language to change the language"
+msgstr ""
+
+#: handlers/users/change_language.py:21 handlers/users/start.py:24
+#: handlers/users/start.py:33 handlers/users/users_panel/call_center.py:18
+#: handlers/users/users_panel/user_back.py:21
+#: handlers/users/users_panel/user_back.py:30
+#: handlers/users/users_panel/user_premium_order_move.py:33
+#: handlers/users/users_panel/user_search_film.py:41
+#: handlers/users/users_panel/user_search_film.py:72
+#: handlers/users/users_panel/user_search_film.py:103
+#: handlers/users/users_panel/user_search_film.py:134
+msgid ""
+"You have not subscribed to the channels!\n"
+"After subscribing, press /start to activate the bot."
+msgstr ""
+
+#: handlers/users/change_language.py:30 handlers/users/change_language.py:45
+#: handlers/users/change_language.py:60
+msgid "You are currently using this language"
+msgstr ""
+
+#: handlers/users/change_language.py:36 handlers/users/change_language.py:51
+#: handlers/users/change_language.py:66
+msgid ""
+"The language has changed\n"
+"click /start for the bot"
+msgstr ""
+
+#: handlers/users/start.py:20 handlers/users/start.py:29
+#: handlers/users/users_panel/user_back.py:17
+#: handlers/users/users_panel/user_back.py:26
+msgid "Welcome to the Telegram Bot"
+msgstr ""
+
+#: handlers/users/admins_panel/start.py:31 handlers/users/start.py:46
+msgid ""
+"This bot is the bot of the Zangora Ekran channel. In this bot, if you "
+"send us the link of the movie you saw on Instagram, we will send you that"
+" movie\n"
+"For the bot to start, click /start"
+msgstr ""
+
+#: handlers/users/admins_panel/start.py:37 handlers/users/start.py:53
+msgid "There is an error in the bot, please contact us"
+msgstr ""
+
+#: handlers/users/admins_panel/add_kino.py:18
+#: handlers/users/admins_panel/change_film.py:17
+msgid "Please upload the movie to the bot"
+msgstr ""
+
+#: handlers/users/admins_panel/add_kino.py:27
+msgid ""
+"Please enter a movie title.\n"
+"Example: Harry Potter"
+msgstr ""
+
+#: handlers/users/admins_panel/add_kino.py:35
+#: handlers/users/admins_panel/change_film.py:40
+msgid "You can only upload videos, you cannot upload anything in text format."
+msgstr ""
+
+#: handlers/users/admins_panel/add_kino.py:43
+msgid ""
+"Please enter the country in which the movie was released\n"
+"Example: USA"
+msgstr ""
+
+#: handlers/users/admins_panel/add_kino.py:53
+msgid ""
+"Please enter year the movie was released\n"
+"Example: 2024"
+msgstr ""
+
+#: handlers/users/admins_panel/add_kino.py:58
+#: handlers/users/admins_panel/change_film.py:94
+#: handlers/users/admins_panel/change_film.py:123
+msgid "Please do not use numbers"
+msgstr ""
+
+#: handlers/users/admins_panel/add_kino.py:67
+msgid ""
+"Please enter the movie type\n"
+"Example: Fight"
+msgstr ""
+
+#: handlers/users/admins_panel/add_kino.py:72
+msgid "Please do not use letter"
+msgstr ""
+
+#: handlers/users/admins_panel/add_kino.py:80
+msgid ""
+"Please enter film's link on instagram \n"
+"Example: https://www.instagram.com/******"
+msgstr ""
+
+#: handlers/users/admins_panel/add_kino.py:90
+msgid ""
+"Please enter film's link on tiktok\n"
+"Example: https://vt.tiktok.com/******"
+msgstr ""
+
+#: handlers/users/admins_panel/add_kino.py:95
+msgid "you can only enter an instagram link"
+msgstr ""
+
+#: handlers/users/admins_panel/add_kino.py:104
+msgid ""
+"Please enter film's link on tiktok\n"
+"Example: https://www.youtube.com/******"
+msgstr ""
+
+#: handlers/users/admins_panel/add_kino.py:109
+#: handlers/users/admins_panel/add_kino.py:123
+msgid "you can only enter an tiktok link"
+msgstr ""
+
+#: handlers/users/admins_panel/add_kino.py:118
+msgid ""
+"Please enter movie status\n"
+"Example: Free or Premium"
+msgstr ""
+
+#: handlers/users/admins_panel/add_kino.py:149
+msgid "Movie added. ✅"
+msgstr ""
+
+#: handlers/users/admins_panel/add_kino.py:151
+msgid ""
+"🆔Film's code: {code}\n"
+"🎬Name: {name}\n"
+"➖➖➖➖➖➖➖➖➖➖\n"
+"📀Quality: {quality}\n"
+"🌍State: {state}\n"
+"📅Date: {date}-year\n"
+"🎞️Type: {type}\n"
+"💜Instagram: {instagram}\n"
+"🖤Tiktok: {tiktok}\n"
+"❤️You Tube: {you_tube}"
+msgstr ""
+
+#: handlers/users/admins_panel/add_kino.py:163
+msgid "There is an error in adding a movie. ❌"
+msgstr ""
+
+#: handlers/users/admins_panel/admin_back.py:11
+msgid "Welcome to the mainn menu"
+msgstr ""
+
+#: handlers/users/admins_panel/admin_change_user_status.py:18
+msgid "Please enter user chat id"
+msgstr ""
+
+#: handlers/users/admins_panel/admin_change_user_status.py:27
+msgid ""
+"Id: {id}\n"
+"Chat id: {chat_id}\n"
+"Status: {status}"
+msgstr ""
+
+#: handlers/users/admins_panel/admin_change_user_status.py:43
+#: handlers/users/admins_panel/admin_change_user_status.py:55
+msgid "User's status has changed"
+msgstr ""
+
+#: handlers/users/admins_panel/admin_search_film.py:19
+#: handlers/users/admins_panel/admin_search_film.py:42
+#: handlers/users/admins_panel/admin_search_film.py:65
+#: handlers/users/admins_panel/admin_search_film.py:88
+#: handlers/users/users_panel/user_search_film.py:28
+#: handlers/users/users_panel/user_search_film.py:59
+#: handlers/users/users_panel/user_search_film.py:90
+#: handlers/users/users_panel/user_search_film.py:121
+msgid ""
+"🎬Name: {name}\n"
+"➖➖➖➖➖➖➖➖➖➖\n"
+"📀quality: {quality}\n"
+"🌍state: {state}\n"
+"📅Date: {date}-year\n"
+"🎞️type: {type}\n"
+"💜Instagram: {instagram}\n"
+"🖤Tiktok: {tiktok}\n"
+"❤️You Tube: {you_tube}\n"
+"🧩Our Chanel: @Zangoriekran_kanali"
+msgstr ""
+
+#: handlers/users/admins_panel/admin_search_film.py:29
+#: handlers/users/admins_panel/admin_search_film.py:52
+msgid "There is no movie with that link❗️"
+msgstr ""
+
+#: handlers/users/admins_panel/admin_search_film.py:75
+#: handlers/users/admins_panel/admin_search_film.py:98
+#: handlers/users/users_panel/user_search_film.py:68
+#: handlers/users/users_panel/user_search_film.py:99
+#: handlers/users/users_panel/user_search_film.py:130
+msgid "There is no movie with that link ❗️"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:29
+msgid "Film changed 🔄"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:33
+msgid "An error occurred while changing the movie 🔄❌"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:49
+msgid "Please enter a new film name"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:61
+msgid "Film's name changed 🔄"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:65
+msgid "An error occurred while renaming the movie 🔄❌"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:74
+msgid "Please enter a new film state"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:86
+msgid "Film's state changed 🔄"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:90
+msgid "Error: Film's didn't state change 🔄❌"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:103
+msgid "Please enter a new film date"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:115
+msgid "Film's date changed 🔄"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:119
+msgid "Error: Film's didn't date change 🔄❌"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:132
+msgid "Please enter a new film type"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:143
+msgid "Film's type changed 🔄"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:147
+msgid "Error: Film's didn't type change 🔄❌"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:156
+msgid "Please enter a new film instagram link"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:168
+msgid "Film's instagram link changed 🔄"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:172
+msgid "Error: Film's didn't instagram link change 🔄❌"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:176
+msgid "You can only enter an instagram link"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:185
+msgid "Please enter a new film tiktok link"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:197
+msgid "Film's tiktok link changed 🔄"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:201
+msgid "Error: Film's didn't tiktok link change 🔄❌"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:205
+msgid "You can only enter an tiktok link"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:214
+msgid "Please enter a new film you tube link"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:226
+msgid "Film's you tube link changed 🔄"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:230
+msgid "Error: Film's didn't you tube link change 🔄❌"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:234
+msgid "You can only enter an you tube link"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:243
+msgid "The film has been deleted 🔄"
+msgstr ""
+
+#: handlers/users/admins_panel/change_film.py:247
+msgid "There is an error while deleting the movie 🗑❌"
+msgstr ""
+
+#: handlers/users/admins_panel/setting.py:10
+msgid "Welcome to the settings menu"
+msgstr ""
+
+#: handlers/users/admins_panel/start.py:18
+msgid "Hello Admin🫡"
+msgstr ""
+
+#: handlers/users/admins_panel/statistics.py:11
+msgid "Welcome to the statistics menu"
+msgstr ""
+
+#: handlers/users/users_panel/user_premium_order_move.py:23
+msgid ""
+"Requirements: The movie you are looking for must be available, do not use"
+" offensive language, and your message must not exceed 100 characters.\n"
+"Reminder. If you say something bad, we will remove your bonus."
+msgstr ""
+
+#: handlers/users/users_panel/user_premium_order_move.py:46
+msgid ""
+"Your message has exceeded 100 characters, you used {len} characters in "
+"your message"
+msgstr ""
+
+#: handlers/users/users_panel/user_search_film.py:37
+msgid "There is no movie with that code ❗️"
+msgstr ""
+
+#: keyboards/default/admin.py:9
+msgid "Statistics 📊"
+msgstr ""
+
+#: keyboards/default/admin.py:10
+msgid "Settings ⚙️"
+msgstr ""
+
+#: keyboards/default/admin.py:13
+msgid "Giving premium 💎"
+msgstr ""
+
+#: keyboards/default/admin.py:16
+msgid "Add Film ➕"
+msgstr ""
+
+#: keyboards/default/admin.py:27
+msgid "Quantity users 👥"
+msgstr ""
+
+#: keyboards/default/admin.py:28
+msgid "Quantity films 🎥"
+msgstr ""
+
+#: keyboards/default/admin.py:31 keyboards/default/back.py:9
+#: keyboards/inline/change_user_status.py:11
+msgid "Back ⬅️"
+msgstr ""
+
+#: keyboards/default/setting.py:9 keyboards/default/user.py:9
+#: keyboards/default/user_premium.py:9
+msgid "Change language 🇺🇿🇷🇺🇺🇸"
+msgstr ""
+
+#: keyboards/default/user.py:10 keyboards/default/user_premium.py:13
+msgid "Call center 📞"
+msgstr ""
+
+#: keyboards/default/user_premium.py:10
+msgid "Order a movie 🛍🎥"
+msgstr ""
+
+#: keyboards/inline/add_film.py:6
+msgid "Free 🆓"
+msgstr ""
+
+#: keyboards/inline/add_film.py:7
+msgid "Premium 💎"
+msgstr ""
+
+#: keyboards/inline/change_film.py:20
+msgid "Film 🎥"
+msgstr ""
+
+#: keyboards/inline/change_film.py:23
+msgid "Name 🎬"
+msgstr ""
+
+#: keyboards/inline/change_film.py:28
+msgid "State 🌏"
+msgstr ""
+
+#: keyboards/inline/change_film.py:31
+msgid "Date 📅"
+msgstr ""
+
+#: keyboards/inline/change_film.py:50
+msgid "Type 🎞️"
+msgstr ""
+
+#: keyboards/inline/change_film.py:56
+msgid "Delete 🗑"
+msgstr ""
+
+#: keyboards/inline/change_user_status.py:7
+msgid "Change free 🆓"
+msgstr ""
+
+#: keyboards/inline/change_user_status.py:8
+msgid "Change premium 💎"
+msgstr ""
+
+#: keyboards/inline/channels.py:7
+msgid "✅ SUBSCRIBE"
+msgstr ""
+
+#~ msgid "There is no movie with that code"
+#~ msgstr ""
+
+#~ msgid "Language 🇺🇿🇺🇸🇷🇺"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Name: {name}\n"
+#~ "quality: {quality}\n"
+#~ "state: {state}\n"
+#~ "type: {type}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "🎬Name: {name}\n"
+#~ "➖➖➖➖➖➖➖➖➖➖\n"
+#~ "📀quality: {quality}\n"
+#~ "🌍state: {state}\n"
+#~ "🎞️type: {type}\n"
+#~ "🧩Our Chanel: @Zangoriekran_kanali"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "🎬Name: {name}\n"
+#~ "➖➖➖➖➖➖➖➖➖➖\n"
+#~ "📀quality: {quality}\n"
+#~ "🌍state: {state}\n"
+#~ "📅Data: {data}\n"
+#~ "            🎞️type: {type}\n"
+#~ "🧩Our Chanel: @Zangoriekran_kanali"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "🎬Name: {name}\n"
+#~ "➖➖➖➖➖➖➖➖➖➖\n"
+#~ "📀quality: {quality}\n"
+#~ "🌍state: {state}\n"
+#~ "📅Data: {data}\n"
+#~ "🎞️type: {type}\n"
+#~ "🧩Our Chanel: @Zangoriekran_kanali"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "🎬Name: {name}\n"
+#~ "➖➖➖➖➖➖➖➖➖➖\n"
+#~ "📀quality: {quality}\n"
+#~ "🌍state: {state}\n"
+#~ "📅Date: {date}-year\n"
+#~ "🎞️type: {type}\n"
+#~ "🧩Our Chanel: @Zangoriekran_kanali"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can find movies through this "
+#~ "bot in 2 ways. 1. You can "
+#~ "find films by entering the number "
+#~ "you watched in out videos on "
+#~ "Instagram or Tiktok and other places."
+#~ " 2. If you post the link to "
+#~ "that video, we will send you the"
+#~ " video. If you add the name or"
+#~ " picture of the movie in the "
+#~ "bot, we will try to find the "
+#~ "movie and place it in the bot."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please enter film's link on tiktok\n"
+#~ "Example: https://www.tiktok.com/******"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please enter movie status\n"
+#~ "Example: Premium or Free"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "🎬Name: {name}\n"
+#~ "➖➖➖➖➖➖➖➖➖➖\n"
+#~ "📀quality: {quality}\n"
+#~ "🌍state: {state}\n"
+#~ "📅Date: {date}-year\n"
+#~ "🎞️type: {type}\n"
+#~ "Instagram: {instagram}\n"
+#~ "🖤Tiktok: {tiktok}\n"
+#~ "❤️You Tube: {you_tube}\n"
+#~ "🧩Our Chanel: @Zangoriekran_kanali"
+#~ msgstr ""
+
+#~ msgid "Film"
+#~ msgstr ""
+
+#~ msgid "Name"
+#~ msgstr ""
+
+#~ msgid "State"
+#~ msgstr ""
+
+#~ msgid "Date"
+#~ msgstr ""
+
+#~ msgid "Type"
+#~ msgstr ""
+
+#~ msgid "Delet"
+#~ msgstr ""
+
+#~ msgid "Tilni Tanlang,     select a language,     выберите язык"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can find movies through this "
+#~ "bot in 2 ways. 1. You can "
+#~ "find films by entering the number "
+#~ "you watched in out videos on "
+#~ "Instagram or Tiktok and other places."
+#~ " 2. If you post the link to "
+#~ "that video, we will send you the"
+#~ " video. If you add the name or"
+#~ " picture of the movie in the "
+#~ "bot, we will try to find the "
+#~ "movie and place it in the bot."
+#~ "\n"
+#~ "Click start again to /start the bot"
+#~ msgstr ""
+
